@@ -2,8 +2,7 @@
 title: Visual Studio 使用 clang-format 自定义 C++ 代码默认格式化样式
 description: 让 Visual Studio 默认使用我们自定义的 C/C++ 代码格式化样式，而不需要在项目中创建 .clang-format 文件。
 date: 2024-08-23T10:28:12.728Z
-preview: ""
-draft: true
+draft: false
 tags:
     - clang-format
     - Visual Studio
