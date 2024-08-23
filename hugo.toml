@@ -53,7 +53,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 [author]
   name = "雪狐"
   email = "yukiisait@outlook.jp"
-  link = "https://github.com/YukiIsait/"
+  link = "/"
 
 # Menu config
 # 菜单配置
