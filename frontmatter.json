@@ -51,6 +51,10 @@
       "excludeSubdir": true
     },
     {
+      "title": "About",
+      "path": "[[workspace]]/content/about"
+    },
+    {
       "title": "Posts",
       "path": "[[workspace]]/content/posts"
     }
