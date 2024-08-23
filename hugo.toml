@@ -125,7 +125,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   title = "雪狐的小窝"
   # website description for RSS, SEO, Open Graph and Twitter Cards
   # 网站描述, 用于 RSS, SEO, Open Graph 和 Twitter Cards
-  description = "一只雪白的幼狐~ 在冬日的暖阳下睡着懒觉、奔跑玩耍.... 好似永远也不会长大。"
+  description = "雪狐的小窝，记录分享，自我提升与学习成长的自留地"
   # website images for Open Graph and Twitter Cards
   # 网站图片, 用于 Open Graph 和 Twitter Cards
   images = ["/logo.png"]
