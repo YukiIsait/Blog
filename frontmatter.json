@@ -37,17 +37,6 @@
           "title": "Tags",
           "name": "tags",
           "type": "tags"
-        },
-        {
-          "title": "Categories",
-          "name": "categories",
-          "type": "categories"
-        },
-        {
-          "title": "Layout",
-          "name": "layout",
-          "type": "string",
-          "default": "simple"
         }
       ]
     }
@@ -55,7 +44,6 @@
   "frontMatter.framework.id": "hugo",
   "frontMatter.content.publicFolder": "assets",
   "frontMatter.preview.host": "http://localhost:1313",
-  "frontMatter.preview.pathName": "posts",
   "frontMatter.content.pageFolders": [
     {
       "title": "Content",
