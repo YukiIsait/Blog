@@ -64,6 +64,11 @@
           "title": "Is in draft",
           "name": "draft",
           "type": "draft"
+        },
+        {
+          "title": "Light gallery",
+          "name": "lightgallery",
+          "type": "boolean"
         }
       ]
     }
