@@ -1,5 +1,24 @@
 {
   "$schema": "https://frontmatter.codes/frontmatter.schema.json",
+  "frontMatter.taxonomy.fieldGroups": [
+    {
+      "id": "resources",
+      "labelField": "Resources",
+      "fields": [
+        {
+          "title": "Name",
+          "name": "name",
+          "type": "string",
+          "single": true
+        },
+        {
+          "title": "Source",
+          "name": "src",
+          "type": "image"
+        }
+      ]
+    }
+  ],
   "frontMatter.taxonomy.contentTypes": [
     {
       "name": "default",
@@ -24,19 +43,27 @@
           "isPublishDate": true
         },
         {
-          "title": "Content preview",
-          "name": "preview",
-          "type": "image"
+          "title": "Tags",
+          "name": "tags",
+          "type": "tags"
+        },
+        {
+          "title": "Categories",
+          "name": "categories",
+          "type": "categories"
+        },
+        {
+          "title": "Resources",
+          "name": "resources",
+          "type": "block",
+          "fieldGroup": [
+            "resources"
+          ]
         },
         {
           "title": "Is in draft",
           "name": "draft",
           "type": "draft"
-        },
-        {
-          "title": "Tags",
-          "name": "tags",
-          "type": "tags"
         }
       ]
     }
