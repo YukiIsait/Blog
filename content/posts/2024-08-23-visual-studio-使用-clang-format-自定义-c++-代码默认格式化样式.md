@@ -21,7 +21,8 @@ Visual Studio 的 C++ 代码格式化可选使用 clang-format，但它只提供
 
 包装程序通过其同级目录下的 `rules.txt` 文件来设置自定义的默认样式，具体设置参照 [**Clang-Format 官方文档**](https://clang.llvm.org/docs/ClangFormatStyleOptions.html)，也可以使用 [**Clang-Format 交互式构建器**](https://zed0.co.uk/clang-format-configurator/)。启用这个包装程序后， Visual Studio 内置的**默认格式设置样式**选项将会失效。
 
-> - 包装程序的代码贴在了文章结尾，在 Visual Studio 中使用 Std C++17 编译即可。
+> - 预编译的包装程序和 `clang-format.exe` 一起打包贴在了文章末尾，可以直接下载使用。
+> - 包装程序的代码贴在了文章末尾，如有需要在 Visual Studio 中使用 Std C++17 编译即可。
 > - `clang-format.exe` 可以在 `%VS安装目录%\VC\Tools\Llvm\x64\bin` 目录中找到，也可以在 [LLVM 发布页](https://github.com/llvm/llvm-project/releases/latest) 下载。
 
 这里贴上作者习惯使用的代码格式化样式（Java 代码的习惯样式），以下是 `rules.txt` 内容：
@@ -120,7 +121,7 @@ int wmain(int argc, wchar_t** argv) {
 }
 ```
 
-## 预编译程序下载
+## 资源下载
 
 > 由于 `clang-format.exe` 和 `clang-format-wrapper.exe` 依赖 VC++ 140 运行库，如果无法运行请先安装运行库。
 
