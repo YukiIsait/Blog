@@ -9,6 +9,7 @@ tags:
     - C++
 categories:
     - 编程语言
+lightgallery: true
 ---
 
 ## 问题描述
@@ -71,17 +72,17 @@ SpaceBeforeCpp11BracedList: true
 
 1. 确保 `clang-format.exe` 在 `PATH` 中并且可访问。
 
-    ![](/images/Snipaste_2024-08-21_21-06-49.png)
+    {{< image src="/images/Snipaste_2024-08-21_21-06-49.png" caption="PATH 中可访问的 clang-format" >}}
 
 2. 确保 `clang-format.exe` 位于 `clang-format-wrapper.exe` 的同级目录下。
 
-    ![](/images/Snipaste_2024-08-21_21-09-39.png)
+    {{< image src="/images/Snipaste_2024-08-21_21-09-39.png" caption="同级目录下的 clang-format" >}}
 
 ## 使用方法
 
 1. **启用 ClangFormat 支持**并**使用自定义 clang-format.exe 文件**，选择上一步的 `clang-format-wrapper.exe` 并确定。
 
-    ![](/images/Snipaste_2024-08-21_21-03-09.png)
+    {{< image src="/images/Snipaste_2024-08-21_21-03-09.png" caption="配置选项" >}}
 
 2. 现在可以回到编辑器测试一下了，默认格式化快捷键是 `Ctrl + K + D`。
 
