@@ -52,7 +52,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 # 作者配置
 [author]
   name = "雪狐"
-  email = "yukiisait@outlook.jp"
+  email = ""
   link = "/"
 
 # Menu config
@@ -375,7 +375,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     Plume = ""
     HackTheBox = ""
     RootMe= ""
-    Email = "yukiisait@outlook.jp"
+    Email = ""
     RSS = ""
 
   # Page global config
