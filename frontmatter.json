@@ -91,5 +91,12 @@
       "path": "[[workspace]]/content/posts"
     }
   ],
-  "frontMatter.dashboard.openOnStart": true
+  "frontMatter.dashboard.openOnStart": true,
+  "frontMatter.content.snippets": {
+    "Image snippet": {
+      "description": "Image with caption",
+      "body": "{{< image src=\"[[&mediaUrl]]\" caption=\"[[caption]]\" >}}",
+      "isMediaSnippet": true
+    }
+  }
 }
