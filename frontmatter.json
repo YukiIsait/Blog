@@ -74,7 +74,6 @@
     }
   ],
   "frontMatter.framework.id": "hugo",
-  "frontMatter.content.publicFolder": "assets",
   "frontMatter.preview.host": "http://localhost:1313",
   "frontMatter.content.pageFolders": [
     {
@@ -91,12 +90,16 @@
       "path": "[[workspace]]/content/posts"
     }
   ],
-  "frontMatter.dashboard.openOnStart": true,
+  "frontMatter.content.publicFolder": {
+    "path": "[[workspace]]/content/posts",
+    "relative": true
+  },
   "frontMatter.content.snippets": {
     "Image snippet": {
       "description": "Image with caption",
       "body": "{{< image src=\"[[&mediaUrl]]\" caption=\"[[caption]]\" >}}",
       "isMediaSnippet": true
     }
-  }
+  },
+  "frontMatter.dashboard.openOnStart": true
 }
