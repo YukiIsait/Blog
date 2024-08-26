@@ -8,7 +8,7 @@ draft: false
 ## 简介
 
 {{< style "float: left; margin-right: 1.2rem; width: 200px" >}}
-![Avatar](/images/avatar.png#float-end)
+![Avatar](/images/avatar.png)
 {{< /style >}}
 
 一只雪白的幼狐~  
