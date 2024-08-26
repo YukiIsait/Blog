@@ -7,10 +7,12 @@ draft: false
 
 ## 简介
 
-{{< style "float: left; margin-right: 1.2rem; width: 200px" >}}
+{{< style "float: left; margin-right: 1.2rem; img { width: 200px; height: 200px }" >}}
 ![Avatar](/images/avatar.png)
 {{< /style >}}
 
-一只雪白的幼狐~  
-在冬日的暖阳下睡着懒觉、奔跑玩耍....  
-好似永远也不会长大。
+{{< style "margin-left: calc(200px + 1.2rem)" >}}
+> 一只雪白的幼狐~  
+> 在冬日的暖阳下睡着懒觉、奔跑玩耍....  
+> 好似永远也不会长大。
+{{< /style >}}
