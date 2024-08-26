@@ -5,5 +5,5 @@
 [雪狐的小窝](https://youko.netlify.app/)是一个基于 [Hugo](https://gohugo.io/) 和 [LoveIt](https://hugoloveit.com/) 的静态网站，部署于 [Netlify](https://www.netlify.com/)。
 
 一只雪白的幼狐~  
-在冬日的暖阳下睡着懒觉、奔跑玩耍....  
+在冬日的暖阳下睡着懒觉、奔跑玩耍...  
 好似永远也不会长大。
